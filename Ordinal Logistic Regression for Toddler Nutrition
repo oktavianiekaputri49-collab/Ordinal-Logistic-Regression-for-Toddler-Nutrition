@@ -1,0 +1,115 @@
+# Ordinal Logistic Regression for Toddler Nutritional Status
+
+## 📌 Overview
+
+This project presents an **Ordinal Logistic Regression** analysis to identify factors associated with toddler nutritional status. The response variable consists of three ordered categories: **Poor Nutrition**, **Under Nutrition**, and **Good Nutrition**.
+
+The study evaluates the influence of birth weight, exclusive breastfeeding, and household sanitation on nutritional status.
+
+---
+
+## 🎯 Objectives
+
+* Analyze factors affecting toddler nutritional status.
+* Build an Ordinal Logistic Regression model.
+* Interpret Odds Ratios for each predictor.
+* Evaluate the predictive performance of the model.
+
+---
+
+## 📊 Variables
+
+### Response Variable (Y)
+
+**Toddler Nutritional Status**
+
+* 1 = Poor Nutrition
+* 2 = Under Nutrition
+* 3 = Good Nutrition
+
+### Predictor Variables (X)
+
+| Variable | Description                                             |
+| -------- | ------------------------------------------------------- |
+| X1       | Birth Weight (0 = Low Birth Weight, 1 = Normal)         |
+| X2       | Exclusive Breastfeeding (0 = No, 1 = Yes)               |
+| X3       | Household Sanitation (0 = Good, 1 = Poor, 2 = Moderate) |
+
+---
+
+## 🛠️ Statistical Methods
+
+* Descriptive Statistics
+* Ordinal Logistic Regression
+* Independence Test
+* Odds Ratio Analysis
+* Model Evaluation
+
+---
+
+## 📈 Key Results
+
+### Significant Variables
+
+* Birth Weight
+* Exclusive Breastfeeding
+* Household Sanitation
+
+All predictor variables were statistically significant (**p < 0.001**).
+
+### Odds Ratio
+
+| Variable                      | Odds Ratio |
+| ----------------------------- | ---------: |
+| Normal Birth Weight           |     0.0241 |
+| Exclusive Breastfeeding       |     0.0963 |
+| Poor Household Sanitation     |    34.3321 |
+| Moderate Household Sanitation |     7.0292 |
+
+### Model Performance
+
+* Classification Accuracy: **73%**
+* Classification Error: **27%**
+
+---
+
+## 💡 Key Insights
+
+* Normal birth weight reduces the likelihood of poor nutritional status.
+* Exclusive breastfeeding has a protective effect on toddler nutritional status.
+* Poor household sanitation substantially increases the risk of poor nutritional status.
+* The developed model demonstrates good predictive performance with 73% accuracy.
+
+---
+
+## 📂 Repository Structure
+
+```text
+├── README.md
+├── Artikel_Gizi01.pptx
+├── Artikel_Gizi01.pdf
+└── images/
+```
+
+---
+
+## 🧰 Tools
+
+* Statistical Software
+* Microsoft PowerPoint
+* PDF Documentation
+
+---
+
+## 👩‍💻 Author
+
+**Oktaviani Eka Putri**
+
+Bachelor of Statistics Student
+Universitas PGRI Adi Buana Surabaya
+
+---
+
+## 🏷️ Tags
+
+Statistics • Data Analysis • Ordinal Logistic Regression • Public Health • Data Analytics • Research • Portfolio
